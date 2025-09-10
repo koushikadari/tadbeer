@@ -1,7 +1,8 @@
-to send code from cli to central :::
-first make sure git is installed or not
-  git init
-  git remote add origin  https://github.com/koushikadari/tadbeer.git
-  git add .
-  git branch -M main
-   git push origin main 
+cd /path/to/your/project
+git init
+git remote add origin https://github.com/koushikadari/tadbeer.git
+git add .
+git commit -m "Initial project commit"
+git branch -M main
+git pull origin main --rebase
+git push -u origin main
